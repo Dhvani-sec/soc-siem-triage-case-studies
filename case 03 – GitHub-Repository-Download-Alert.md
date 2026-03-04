@@ -14,7 +14,9 @@ Assessed whether the activity aligned with the user’s job function
 ## Findings
 
 The accessed repository was an official open-source project maintained by a well-known and reputable organization.
+
 The activity originated from a development-designated network segment, and the user’s role was consistent with software-related tasks.
+
 No additional suspicious indicators were observed, such as:
 
 Execution of unknown binaries
