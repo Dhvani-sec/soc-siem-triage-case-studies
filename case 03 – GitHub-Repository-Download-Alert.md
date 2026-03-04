@@ -20,7 +20,9 @@ The activity originated from a development-designated network segment, and the u
 No additional suspicious indicators were observed, such as:
 
 Execution of unknown binaries
+
 Downloads from newly created or untrusted repositories
+
 Connections to suspicious IP infrastructure
 
 Based on available logs, the activity appeared consistent with legitimate development work.
