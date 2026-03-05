@@ -8,9 +8,13 @@ The message claimed a significant pricing change for a collaboration platform an
 ## Investigation Steps
 
 -Reviewed email subject line and message content
+
 -Analyzed sender address and domain alignment
+
 -Verified email authentication results (SPF/DKIM)
+
 -Inspected attachment type and delivery method
+
 -Assessed recipient role and potential business impact
 
 ## Findings
@@ -32,5 +36,7 @@ Escalation and user notification would be required in a real-world scenario.
 ## Key Takeaways
 
 -Failed SPF and DKIM checks significantly increase phishing confidence.
+
 -Financial urgency themes are common in social engineering campaigns.
+
 -Compressed attachments require heightened scrutiny due to malware delivery risk.
