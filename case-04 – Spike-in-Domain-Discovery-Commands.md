@@ -6,15 +6,21 @@ A medium-severity SIEM alert was triggered due to a sudden spike in Active Direc
 ## Investigation Steps
 
 -Reviewed the affected server role (public-facing mail server in DMZ segment)
+
 -Identified the executing security context (SYSTEM-level privileges)
+
 -Analyzed the sequence of domain discovery commands executed
+
 -Investigated process hierarchy and parent-child relationships
+
 -Assessed whether the activity aligned with legitimate administrative operations
 
 ## Process Lineage Observed
 
 -Parent process: web server worker process
+
 -Child process: suspicious reverse shell executable
+
 -Spawned process: command shell (cmd.exe)
 
 ## Findings
